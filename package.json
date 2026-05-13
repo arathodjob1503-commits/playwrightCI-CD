@@ -1,0 +1,15 @@
+{
+  "name": "saucedemo-playwright",
+  "version": "1.0.0",
+  "description": "Playwright Automation - SauceDemo - Chrome Only",
+  "scripts": {
+    "test": "npx playwright test --project=chromium",
+    "test:headed": "npx playwright test --project=chromium --headed",
+    "test:report": "npx playwright show-report",
+    "test:debug": "npx playwright test --project=chromium --debug"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^25.6.0"
+  }
+}
