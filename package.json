@@ -9,7 +9,27 @@
     "test:debug": "npx playwright test --project=chromium --debug"
   },
   "devDependencies": {
-    "@playwright/test": "^1.44.0",
+    "@playwright/test": "^1.60.0",
     "@types/node": "^25.6.0"
-  }
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0",
+    "playwright-core": "^1.60.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arathodjob1503-commits/playwrightCI-CD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/arathodjob1503-commits/playwrightCI-CD/issues"
+  },
+  "homepage": "https://github.com/arathodjob1503-commits/playwrightCI-CD#readme"
 }
